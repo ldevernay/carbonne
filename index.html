@@ -19,6 +19,9 @@
     <button onclick="install()">
         Installer
     </button>
+    <button onclick="brrr()">
+        Brrr
+    </button>
 </body>
 <script>
     if ('serviceWorker' in navigator) {
@@ -54,6 +57,10 @@
 
 
         }
+    }
+
+    function brrr(){
+        window.navigator.vibrate(100);
     }
 
 </script>
