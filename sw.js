@@ -1,8 +1,8 @@
 var cacheName = 'carbonne';
 var filesToCache = [
-  // '/index.html',
-  // '/assets/css/styles.css',
-  // '/assets/img/logo_carbonne.png'
+  '/index.html',
+  '/assets/css/styles.css',
+  '/assets/img/logo_carbonne.png'
 ];
 
 self.addEventListener('install', function(e) {
