@@ -1,5 +1,6 @@
 var cacheName = 'carbonne';
 var filesToCache = [
+  'carbonne/',
   'sw.js',
   'index.html',
   'assets/css/styles.css',
