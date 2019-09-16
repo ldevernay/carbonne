@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Carbonne on fait des trucs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#008000" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <h2>Bienvenue sur la web app de Simplon Carbonne</h2>
+    <div class="logo">
+        <img src="assets/img/logo_carbonne.png" alt="Le beau logo" width="10%">
+    </div>
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+            .then(function () {
+                console.log('Service Worker Registered');
+            });
+    }
+</script>
+
+</html>
